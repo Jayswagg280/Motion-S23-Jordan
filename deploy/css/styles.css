@@ -415,7 +415,7 @@ header > div aside a {
   }
 }
 #hero > div {
-  overflow: hidden;
+  overflow-x: hidden;
   height: 100%;
 }
 @media (min-width: 1200px) {
@@ -486,10 +486,10 @@ header > div aside a {
     grid-template-columns: auto 80% auto;
   }
 }
-@media (min-width: 1024px) {
+@media (min-width: 768px) {
   #content {
     padding: 128px 0;
-    grid-template-columns: auto 80% auto;
+    grid-template-columns: auto 90% auto;
   }
 }
 @media (min-width: 1200px) {

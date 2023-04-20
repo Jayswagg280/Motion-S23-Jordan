@@ -11,7 +11,7 @@
     }
 
     >div{
-        overflow: hidden;
+        overflow-x: hidden;
         height:100%;
 
         @include xl{
