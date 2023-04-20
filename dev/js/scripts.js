@@ -10,3 +10,8 @@ gsap.utils.toArray("img").forEach(img => {
     img.addEventListener("mouseenter", () => hover.play());
     img.addEventListener("mouseleave", () => hover.reverse());
   });
+  gsap.utils.toArray("button").forEach(button => {
+    let hover = gsap.to(button, {scale: 1.12, duration: 0.5, paused: true, ease: "power1.inOut"});
+    button.addEventListener("mouseenter", () => hover.play());
+    button.addEventListener("mouseleave", () => hover.reverse());
+  });
