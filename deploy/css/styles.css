@@ -433,6 +433,7 @@ header > div aside a {
   background-size: cover;
 }
 #hero article #hero-content {
+  padding-top: 100px;
   color: var(--gold);
   text-align: center;
 }
@@ -468,6 +469,57 @@ header > div aside a {
 }
 @media (min-width: 1024px) {
   #hero article #hero-content h2 {
+    font-size: rem-cal(40);
+    margin-top: -15px;
+  }
+}
+#hero article #book-covers {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto;
+  grid-template-areas: ". content content content .";
+  padding: 16px 16px;
+}
+#hero article #book-covers div {
+  grid-area: content;
+}
+#hero article #book-covers div img {
+  width: 150px;
+  height: auto;
+  box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.64);
+  margin: 0 16px;
+}
+#hero article #book-covers div h1 {
+  font-size: 5rem;
+  font-weight: 900;
+  line-height: 117px;
+  text-shadow: 0px 4px 2px rgba(0, 0, 0, 0.2);
+  margin: 0;
+}
+@media (min-width: 768px) {
+  #hero article #book-covers div h1 {
+    font-size: rem-cal(90);
+  }
+}
+@media (min-width: 1024px) {
+  #hero article #book-covers div h1 {
+    font-size: rem-cal(100);
+  }
+}
+#hero article #book-covers div h2 {
+  font-size: 2rem;
+  font-weight: 400;
+  line-height: 47px;
+  text-shadow: 0px 4px 2px rgba(0, 0, 0, 0.25);
+  margin-top: -25px;
+}
+@media (min-width: 768px) {
+  #hero article #book-covers div h2 {
+    font-size: rem-cal(40);
+    margin-top: -20px;
+  }
+}
+@media (min-width: 1024px) {
+  #hero article #book-covers div h2 {
     font-size: rem-cal(40);
     margin-top: -15px;
   }

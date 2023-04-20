@@ -29,6 +29,32 @@
       "oF" : 0,
       "pg" : 0
     },
+    "\/deploy\/img\/Echoes.jpg" : {
+      "ft" : 16384,
+      "iS" : 158223,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/Echoes.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/end.jpg" : {
+      "ft" : 16384,
+      "iS" : 445475,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/end.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/deploy\/img\/hero.jpg" : {
       "ft" : 16384,
       "iS" : 218702,
@@ -51,6 +77,19 @@
       "opt" : 0,
       "plM" : 52780316221407,
       "prP" : 0
+    },
+    "\/deploy\/img\/solar-war.jpg" : {
+      "ft" : 16384,
+      "iS" : 215215,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/solar-war.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
     },
     "\/deploy\/index.html" : {
       "cB" : 0,
