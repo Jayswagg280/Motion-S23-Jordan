@@ -1,18 +1,19 @@
 #content{
+    background-color: var(--black);
     display: grid;
     grid-template-columns: auto 90% auto;
     grid-template-areas: ". content .";
     padding: 64px 0;
 
-    @include md{
+    @include sm{
         padding: 100px 0;
         grid-template-columns: auto 80% auto;
     }
-    @include md{
+    @include lg{
         padding: 128px 0;
         grid-template-columns: auto 80% auto;
     }
-    @include md{
+    @include xl{
         grid-template-columns: auto 1440px auto;
     }
 
@@ -25,10 +26,12 @@
         }
 
         h1{
+            color:var(--gold);
             font-size: rem-calc(35);
             margin-bottom: 10px;
         }
         p{
+            color:var(--white);
             font-size: rem-calc(18);
             line-height: rem-calc(30);
             text-align: justify;
