@@ -1,13 +1,11 @@
 #hero{
     height: 90vh;
     width:100%;
-    
 
     @include xl{
         display:grid;
         grid-template-areas: "hero";
         grid-template-columns: 100%;
-
     }
 
     >div{
