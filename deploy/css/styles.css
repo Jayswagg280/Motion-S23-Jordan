@@ -13,6 +13,8 @@ html {
 :root {
   --white: #fff;
   --black: #000;
+  --blood: #960000;
+  --gold: #FFD482;
 }
 
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
