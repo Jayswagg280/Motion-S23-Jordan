@@ -15,9 +15,9 @@
         grid-template-columns: auto 90% auto;
     }
 
-    @include xl{
-        grid-template-columns: auto 1440px auto;
-    }
+    // @include xl{
+    //     grid-template-columns: auto 90% auto;
+    // }
 
     >div{
         grid-area: content;

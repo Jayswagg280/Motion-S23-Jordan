@@ -551,11 +551,6 @@ header > div aside a {
     grid-template-columns: auto 90% auto;
   }
 }
-@media (min-width: 1200px) {
-  #content {
-    grid-template-columns: auto 1440px auto;
-  }
-}
 #content > div {
   grid-area: content;
 }
