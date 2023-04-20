@@ -5,8 +5,8 @@
 
     @include xl{
         display:grid;
-        grid-template-areas: ". hero .";
-        grid-template-columns: auto 1440px auto;
+        grid-template-areas: "hero";
+        grid-template-columns: 100%;
 
     }
 
