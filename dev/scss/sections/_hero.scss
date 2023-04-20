@@ -1,7 +1,7 @@
 #hero{
     height: 90vh;
     width:100%;
-
+    background-color: black;
     @include xl{
         display:grid;
         grid-template-areas: "hero";
@@ -113,3 +113,8 @@
         }
     }
 }
+/* li:hover {
+  transform: scaleX(1.12) scaleY(1.12) scaleZ(1.5);
+  transition: 1.5s ease-in-out;
+}
+ */

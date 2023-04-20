@@ -406,6 +406,7 @@ header > div aside a {
 #hero {
   height: 90vh;
   width: 100%;
+  background-color: black;
 }
 @media (min-width: 1200px) {
   #hero {
@@ -525,6 +526,11 @@ header > div aside a {
   }
 }
 
+/* li:hover {
+  transform: scaleX(1.12) scaleY(1.12) scaleZ(1.5);
+  transition: 1.5s ease-in-out;
+}
+ */
 #content {
   background-color: var(--black);
   display: grid;
