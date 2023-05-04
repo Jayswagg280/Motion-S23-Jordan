@@ -576,14 +576,14 @@ header > div aside a {
   justify-content: center;
 }
 #content > div #paintings div img {
-  width: 150px;
+  width: 300px;
   height: auto;
   box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.64);
-  margin: 0 8px;
+  margin: 8px;
 }
 @media (min-width: 768px) {
   #content > div #paintings div img {
-    width: 150px;
+    width: 190px;
     margin: 16px 16px;
   }
 }
@@ -607,6 +607,9 @@ header > div aside a {
   cursor: pointer;
 }
 
+#hero-2 {
+  background-color: black;
+}
 #hero-2 .button-1 {
   display: flex;
   justify-content: center;
@@ -663,16 +666,23 @@ header > div aside a {
   }
 }
 #hero-2 article button {
-  border-radius: 16px;
+  border-radius: 8px;
   border-color: transparent;
   color: var(--oldpaper);
   background-color: var(--dusk);
-  padding: 40px 120px;
+  padding: 16px 40px;
   text-align: center;
   text-decoration: none;
   box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.64);
   display: inline-block;
-  font-size: 40px;
+  font-size: 16px;
   margin: 4px 2px;
   cursor: pointer;
+}
+@media (min-width: 768px) {
+  #hero-2 article button {
+    border-radius: 16px;
+    padding: 40px 120px;
+    font-size: 40px;
+  }
 }
