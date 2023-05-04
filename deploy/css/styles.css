@@ -390,13 +390,16 @@ header {
   position: fixed;
   background-color: var(--dusk);
   width: 100%;
-  filter: drop-shadow(0px 2px 6px rgba(0, 0, 0, 0.1));
+  filter: drop-shadow(0px 2px 6px rgb(0, 0, 0));
   z-index: 100;
 }
 header > div {
   display: grid;
   grid-template-columns: 20% auto;
   padding: 8px 16px;
+}
+header > div aside img {
+  height: 5vh;
 }
 header > div aside a {
   display: inline-block;
@@ -436,24 +439,22 @@ header > div aside a {
   align-items: center;
 }
 #hero article {
-  display: flex;
-  justify-content: center;
-  align-items: center;
   height: 100%;
-  background-image: url("../img/hero.jpg");
+  background-image: url("../img/hero-1.jpg");
   background-position: center;
   background-size: cover;
 }
 #hero article #hero-content {
   padding-top: 100px;
-  color: var(--gold);
+  color: var(--oldpaper);
   text-align: center;
 }
 #hero article #hero-content h1 {
-  font-size: 6.25rem;
-  font-weight: 100;
+  color: var(--white);
+  font-size: 5rem;
+  font-weight: 80;
   line-height: 117px;
-  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.602);
+  text-shadow: 0px 4px 4px rgb(0, 0, 0);
   margin-bottom: 16px;
 }
 @media (min-width: 768px) {
@@ -485,36 +486,6 @@ header > div aside a {
     margin-top: -15px;
   }
 }
-#hero article #book-covers {
-  display: grid;
-  grid-template-columns: auto auto auto auto auto;
-  grid-template-areas: ". content content content .";
-  padding: 16px 12px;
-  align-items: center;
-  justify-content: center;
-}
-@media (min-width: 768px) {
-  #hero article #book-covers {
-    margin: 16px 16px;
-  }
-}
-#hero article #book-covers div {
-  grid-area: content;
-  align-items: center;
-  justify-content: center;
-}
-#hero article #book-covers div img {
-  width: 90px;
-  height: auto;
-  box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.64);
-  margin: 0 16px;
-}
-@media (min-width: 768px) {
-  #hero article #book-covers div img {
-    width: 150px;
-    margin: 16px 16px;
-  }
-}
 #hero article button {
   border: none;
   color: white;
@@ -541,34 +512,167 @@ header > div aside a {
   grid-template-areas: ". content .";
   padding: 64px 0;
 }
-@media (min-width: 576px) {
-  #content {
-    padding: 100px 0;
-    grid-template-columns: auto 80% auto;
-  }
-}
-@media (min-width: 768px) {
-  #content {
-    padding: 128px 0;
-    grid-template-columns: auto 90% auto;
-  }
-}
 #content > div {
   grid-area: content;
 }
 @media (min-width: 1024px) {
   #content > div {
-    padding: 0 30%;
+    padding: 0 5%;
   }
 }
 #content > div h1 {
-  color: var(--gold);
+  color: var(--oldpaper);
   font-size: 2.1875rem;
   margin-bottom: 10px;
+  font-weight: 80;
 }
 #content > div p {
   color: var(--white);
   font-size: 1.125rem;
   line-height: 1.875rem;
   text-align: justify;
+}
+@media (min-width: 576px) {
+  #content > div #about {
+    padding: 100px 0;
+    grid-template-columns: auto 80% auto;
+  }
+}
+@media (min-width: 768px) {
+  #content > div #about {
+    padding: 128px 0;
+    grid-template-columns: auto 90% auto;
+  }
+}
+@media (min-width: 1024px) {
+  #content > div #about {
+    padding: 0 20%;
+  }
+}
+#content > div #sales {
+  margin-left: 40px;
+}
+@media (min-width: 1024px) {
+  #content > div #sales {
+    margin-top: 100px;
+  }
+}
+#content > div #paintings {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto;
+  grid-template-areas: "painting painting painting . .";
+  padding: 16px 12px;
+  align-items: center;
+  justify-content: left;
+}
+@media (min-width: 768px) {
+  #content > div #paintings {
+    margin: 16px 16px;
+  }
+}
+#content > div #paintings div {
+  grid-area: painting;
+  align-items: center;
+  justify-content: center;
+}
+#content > div #paintings div img {
+  width: 150px;
+  height: auto;
+  box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.64);
+  margin: 0 8px;
+}
+@media (min-width: 768px) {
+  #content > div #paintings div img {
+    width: 150px;
+    margin: 16px 16px;
+  }
+}
+@media (min-width: 1200px) {
+  #content > div #paintings div img {
+    width: 400px;
+  }
+}
+#content > div button {
+  border-radius: 8px;
+  border-color: transparent;
+  color: var(--oldpaper);
+  background-color: var(--dusk);
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.64);
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 40px;
+  cursor: pointer;
+}
+
+#hero-2 .button-1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#hero-2 article {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  background-image: url("../img/hero-2.jpg");
+  background-position: center;
+  background-size: cover;
+  height: 90vh;
+}
+#hero-2 article #hero-2-content {
+  color: var(--oldpaper);
+  text-align: center;
+}
+#hero-2 article #hero-2-content h1 {
+  font-size: 5rem;
+  font-weight: 80;
+  line-height: 117px;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.602);
+  margin-bottom: 16px;
+}
+@media (min-width: 768px) {
+  #hero-2 article #hero-2-content h1 {
+    font-size: rem-cal(90);
+  }
+}
+@media (min-width: 1024px) {
+  #hero-2 article #hero-2-content h1 {
+    font-size: rem-cal(100);
+  }
+}
+#hero-2 article #hero-2-content h2 {
+  font-size: 3.125rem;
+  font-weight: 400;
+  line-height: 47px;
+  text-shadow: 0px 4px 2px rgba(0, 0, 0, 0.601);
+  margin-top: -25px;
+}
+@media (min-width: 768px) {
+  #hero-2 article #hero-2-content h2 {
+    font-size: rem-cal(40);
+    margin-top: -20px;
+  }
+}
+@media (min-width: 1024px) {
+  #hero-2 article #hero-2-content h2 {
+    font-size: rem-cal(40);
+    margin-top: -15px;
+  }
+}
+#hero-2 article button {
+  border-radius: 16px;
+  border-color: transparent;
+  color: var(--oldpaper);
+  background-color: var(--dusk);
+  padding: 40px 120px;
+  text-align: center;
+  text-decoration: none;
+  box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.64);
+  display: inline-block;
+  font-size: 40px;
+  margin: 4px 2px;
+  cursor: pointer;
 }
