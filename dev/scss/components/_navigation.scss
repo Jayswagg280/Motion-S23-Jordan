@@ -19,13 +19,13 @@ nav{
 
             a:link, a:visited{
                 font-family: 'Pt Serif', serif;
-                color:var(--gold);
+                color:var(--oldpaper);
                 transition: 0.25s;
                 font-size: rem-calc(18);
                 font-weight: 300;
 
                 &:hover, &:active{
-                    color: var(--blood);
+                    color: var(--white);
                 }
 
             }
