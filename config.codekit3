@@ -17,6 +17,83 @@
       "oAP" : "\/.gitattributes",
       "oF" : 0
     },
+    "\/build\/.gitignore" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/build\/.gitignore",
+      "oF" : 0
+    },
+    "\/deploy\/css\/styles.css" : {
+      "aP" : 1,
+      "bl" : 0,
+      "ci" : 0,
+      "co" : 0,
+      "ft" : 16,
+      "ma" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/css\/styles-min.css",
+      "oF" : 0,
+      "pg" : 0
+    },
+    "\/deploy\/img\/challenge1.gif" : {
+      "ft" : 4194304,
+      "iS" : 65343,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/challenge1.gif",
+      "oF" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "rq" : 75
+    },
+    "\/deploy\/img\/challenge2.gif" : {
+      "ft" : 4194304,
+      "iS" : 216814,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/challenge2.gif",
+      "oF" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "rq" : 75
+    },
+    "\/deploy\/img\/challenge3.gif" : {
+      "ft" : 4194304,
+      "iS" : 185249,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/challenge3.gif",
+      "oF" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "rq" : 75
+    },
+    "\/deploy\/index.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/index.html",
+      "oF" : 0
+    },
+    "\/deploy\/instructions.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/instructions.html",
+      "oF" : 0
+    },
+    "\/deploy\/js\/scripts-min.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 0,
+      "oAP" : "\/deploy\/js\/scripts-min-min.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
+    },
     "\/dev\/content\/content.kit" : {
       "cB" : 0,
       "ft" : 2048,
@@ -71,6 +148,14 @@
       "hM" : 0,
       "oA" : 1,
       "oAP" : "\/dev\/global\/scripts.html",
+      "oF" : 0
+    },
+    "\/dev\/index.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dev\/index.html",
       "oF" : 0
     },
     "\/dev\/index.kit" : {
@@ -279,6 +364,12 @@
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
+    },
+    "\/node_modules" : {
+      "ft" : 65536,
+      "oA" : 2,
+      "oAP" : "\/node_modules",
+      "oF" : 0
     },
     "\/package-lock.json" : {
       "ft" : 524288,
