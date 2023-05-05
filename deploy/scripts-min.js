@@ -1,0 +1,1 @@
+import{gsap}from"gsap";let mainTL=gsap.timeline();mainTL.from(".red",{duration:1,x:"-=350"});

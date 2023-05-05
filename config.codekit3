@@ -25,6 +25,18 @@
       "oAP" : "\/build\/.gitignore",
       "oF" : 0
     },
+    "\/deploy\/css\/styles-min.css" : {
+      "aP" : 1,
+      "bl" : 0,
+      "ci" : 0,
+      "co" : 0,
+      "ft" : 16,
+      "ma" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/css\/styles-min-min.css",
+      "oF" : 0,
+      "pg" : 0
+    },
     "\/deploy\/css\/styles.css" : {
       "aP" : 1,
       "bl" : 0,
@@ -43,7 +55,7 @@
       "oA" : 0,
       "oAP" : "\/deploy\/img\/challenge1.gif",
       "oF" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "rq" : 75
     },
@@ -53,7 +65,7 @@
       "oA" : 0,
       "oAP" : "\/deploy\/img\/challenge2.gif",
       "oF" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "rq" : 75
     },
@@ -63,7 +75,7 @@
       "oA" : 0,
       "oAP" : "\/deploy\/img\/challenge3.gif",
       "oF" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "rq" : 75
     },
@@ -83,6 +95,17 @@
       "oAP" : "\/deploy\/instructions.html",
       "oF" : 0
     },
+    "\/deploy\/js\/scripts-min-min.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 0,
+      "oAP" : "\/deploy\/js\/scripts-min-min-min.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
+    },
     "\/deploy\/js\/scripts-min.js" : {
       "bF" : 0,
       "ft" : 64,
@@ -93,6 +116,29 @@
       "oF" : 0,
       "sC" : 3,
       "tS" : 0
+    },
+    "\/deploy\/scripts-min.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 0,
+      "oAP" : "\/deploy\/scripts-min-min.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
+    },
+    "\/deploy\/styles.css" : {
+      "aP" : 1,
+      "bl" : 0,
+      "ci" : 0,
+      "co" : 0,
+      "ft" : 16,
+      "ma" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/styles-min.css",
+      "oF" : 0,
+      "pg" : 0
     },
     "\/dev\/content\/content.kit" : {
       "cB" : 0,
@@ -163,7 +209,15 @@
       "ft" : 2048,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/dev\/index.html",
+      "oAP" : "\/deploy\/index.html",
+      "oF" : 2
+    },
+    "\/dev\/instructions.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dev\/instructions.html",
       "oF" : 0
     },
     "\/dev\/instructions.kit" : {
@@ -175,13 +229,13 @@
       "oF" : 0
     },
     "\/dev\/js\/scripts.js" : {
-      "bF" : 0,
+      "bF" : 4,
       "ft" : 64,
       "ma" : 0,
       "mi" : 1,
       "oA" : 0,
-      "oAP" : "\/dev\/js\/scripts-min.js",
-      "oF" : 0,
+      "oAP" : "\/deploy\/js\/scripts-min.js",
+      "oF" : 2,
       "sC" : 3,
       "tS" : 0
     },
@@ -359,8 +413,8 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 0,
-      "oAP" : "\/dev\/scss\/styles.css",
-      "oF" : 0,
+      "oAP" : "\/deploy\/styles.css",
+      "oF" : 2,
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
@@ -427,7 +481,7 @@
     "displayValueWasSetByUser" : 0,
     "iconImageName" : "brackets-ucla",
     "iconImageWasSetByUser" : 0,
-    "lastBuiltDate" : 704325901.50510299
+    "lastBuiltDate" : 704939331.62595403
   },
   "projectSettings" : {
     "abortBuildOnError" : 1,
