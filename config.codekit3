@@ -17,6 +17,26 @@
       "oAP" : "\/.gitattributes",
       "oF" : 0
     },
+    "\/build\/.gitignore" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/build\/.gitignore",
+      "oF" : 0
+    },
+    "\/deploy\/css\/styles-min.css" : {
+      "aP" : 1,
+      "bl" : 0,
+      "ci" : 0,
+      "co" : 0,
+      "ft" : 16,
+      "ma" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/css\/styles-min-min.css",
+      "oF" : 0,
+      "pg" : 0
+    },
     "\/deploy\/css\/styles.css" : {
       "aP" : 1,
       "bl" : 0,
@@ -29,144 +49,34 @@
       "oF" : 0,
       "pg" : 0
     },
-    "\/deploy\/img\/cranes.jpg" : {
-      "ft" : 16384,
-      "iS" : 4343820,
-      "jF" : 0,
+    "\/deploy\/img\/challenge1.gif" : {
+      "ft" : 4194304,
+      "iS" : 65343,
       "oA" : 0,
-      "oAP" : "\/deploy\/img\/cranes.jpg",
+      "oAP" : "\/deploy\/img\/challenge1.gif",
       "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
-      "q" : 100,
       "rq" : 75
     },
-    "\/deploy\/img\/Echoes.jpg" : {
-      "ft" : 16384,
-      "iS" : 158223,
-      "jF" : 0,
+    "\/deploy\/img\/challenge2.gif" : {
+      "ft" : 4194304,
+      "iS" : 216814,
       "oA" : 0,
-      "oAP" : "\/deploy\/img\/Echoes.jpg",
+      "oAP" : "\/deploy\/img\/challenge2.gif",
       "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
-      "q" : 100,
       "rq" : 75
     },
-    "\/deploy\/img\/end.jpg" : {
-      "ft" : 16384,
-      "iS" : 445475,
-      "jF" : 0,
+    "\/deploy\/img\/challenge3.gif" : {
+      "ft" : 4194304,
+      "iS" : 185249,
       "oA" : 0,
-      "oAP" : "\/deploy\/img\/end.jpg",
+      "oAP" : "\/deploy\/img\/challenge3.gif",
       "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/deploy\/img\/Fuji.jpg" : {
-      "ft" : 16384,
-      "iS" : 282616,
-      "jF" : 0,
-      "oA" : 0,
-      "oAP" : "\/deploy\/img\/Fuji.jpg",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/deploy\/img\/hero-1.jpg" : {
-      "ft" : 16384,
-      "iS" : 410697,
-      "jF" : 0,
-      "oA" : 0,
-      "oAP" : "\/deploy\/img\/hero-1.jpg",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/deploy\/img\/hero-2.jpg" : {
-      "ft" : 16384,
-      "iS" : 807097,
-      "jF" : 0,
-      "oA" : 0,
-      "oAP" : "\/deploy\/img\/hero-2.jpg",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/deploy\/img\/hero.jpg" : {
-      "ft" : 16384,
-      "iS" : 218702,
-      "jF" : 0,
-      "oA" : 0,
-      "oAP" : "\/deploy\/img\/hero.jpg",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/deploy\/img\/logo.png" : {
-      "ft" : 32768,
-      "iS" : 7065,
-      "oA" : 0,
-      "oAP" : "\/deploy\/img\/logo.png",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "oT" : 1,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/deploy\/img\/logo.svg" : {
-      "ft" : 2097152,
-      "miP" : 0,
-      "oA" : 2,
-      "oAP" : "\/deploy\/img\/logo.svg",
-      "oF" : 0,
-      "opt" : 0,
-      "plM" : 52780316221407,
-      "prP" : 0
-    },
-    "\/deploy\/img\/solar-war.jpg" : {
-      "ft" : 16384,
-      "iS" : 215215,
-      "jF" : 0,
-      "oA" : 0,
-      "oAP" : "\/deploy\/img\/solar-war.jpg",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/deploy\/img\/tsunami.jpg" : {
-      "ft" : 16384,
-      "iS" : 2535674,
-      "jF" : 0,
-      "oA" : 0,
-      "oAP" : "\/deploy\/img\/tsunami.jpg",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
       "rq" : 75
     },
     "\/deploy\/index.html" : {
@@ -176,6 +86,25 @@
       "oA" : 0,
       "oAP" : "\/deploy\/index.html",
       "oF" : 0
+    },
+    "\/deploy\/instructions.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/instructions.html",
+      "oF" : 0
+    },
+    "\/deploy\/js\/scripts-min-min.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 0,
+      "oAP" : "\/deploy\/js\/scripts-min-min-min.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
     },
     "\/deploy\/js\/scripts-min.js" : {
       "bF" : 0,
@@ -188,6 +117,29 @@
       "sC" : 3,
       "tS" : 0
     },
+    "\/deploy\/scripts-min.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 0,
+      "oAP" : "\/deploy\/scripts-min-min.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
+    },
+    "\/deploy\/styles.css" : {
+      "aP" : 1,
+      "bl" : 0,
+      "ci" : 0,
+      "co" : 0,
+      "ft" : 16,
+      "ma" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/styles-min.css",
+      "oF" : 0,
+      "pg" : 0
+    },
     "\/dev\/content\/content.kit" : {
       "cB" : 0,
       "ft" : 2048,
@@ -196,20 +148,20 @@
       "oAP" : "\/dev\/content\/content.html",
       "oF" : 0
     },
-    "\/dev\/content\/hero.kit" : {
+    "\/dev\/content\/instructions-content.kit" : {
       "cB" : 0,
       "ft" : 2048,
       "hM" : 0,
       "oA" : 1,
-      "oAP" : "\/dev\/content\/hero.html",
+      "oAP" : "\/dev\/content\/instructions-content.html",
       "oF" : 0
     },
-    "\/dev\/content\/learn-more.kit" : {
+    "\/dev\/global\/footer.html" : {
       "cB" : 0,
-      "ft" : 2048,
+      "ft" : 8192,
       "hM" : 0,
-      "oA" : 1,
-      "oAP" : "\/dev\/content\/learn-more.html",
+      "oA" : 0,
+      "oAP" : "\/dev\/global\/footer.html",
       "oF" : 0
     },
     "\/dev\/global\/footer.kit" : {
@@ -244,6 +196,14 @@
       "oAP" : "\/dev\/global\/scripts.html",
       "oF" : 0
     },
+    "\/dev\/index.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dev\/index.html",
+      "oF" : 0
+    },
     "\/dev\/index.kit" : {
       "cB" : 0,
       "ft" : 2048,
@@ -251,6 +211,22 @@
       "oA" : 0,
       "oAP" : "\/deploy\/index.html",
       "oF" : 2
+    },
+    "\/dev\/instructions.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dev\/instructions.html",
+      "oF" : 0
+    },
+    "\/dev\/instructions.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dev\/instructions.html",
+      "oF" : 0
     },
     "\/dev\/js\/scripts.js" : {
       "bF" : 4,
@@ -428,36 +404,6 @@
       "pg" : 0,
       "sct" : 0
     },
-    "\/dev\/scss\/sections\/_hero.scss" : {
-      "aP" : 0,
-      "bl" : 0,
-      "co" : 0,
-      "dP" : 10,
-      "ec" : 1,
-      "ft" : 4,
-      "ma" : 0,
-      "oA" : 1,
-      "oAP" : "\/dev\/scss\/sections\/_hero.css",
-      "oF" : 0,
-      "oS" : 0,
-      "pg" : 0,
-      "sct" : 0
-    },
-    "\/dev\/scss\/sections\/_learn-more.scss" : {
-      "aP" : 0,
-      "bl" : 0,
-      "co" : 0,
-      "dP" : 10,
-      "ec" : 1,
-      "ft" : 4,
-      "ma" : 0,
-      "oA" : 1,
-      "oAP" : "\/dev\/scss\/sections\/_learn-more.css",
-      "oF" : 0,
-      "oS" : 0,
-      "pg" : 0,
-      "sct" : 0
-    },
     "\/dev\/scss\/styles.scss" : {
       "aP" : 0,
       "bl" : 0,
@@ -467,7 +413,7 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 0,
-      "oAP" : "\/deploy\/css\/styles.css",
+      "oAP" : "\/deploy\/styles.css",
       "oF" : 2,
       "oS" : 0,
       "pg" : 0,
@@ -494,6 +440,14 @@
       "oF" : 0,
       "oO" : 1,
       "oS" : 1
+    },
+    "\/README.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/README.html",
+      "oF" : 0
     },
     "\/README.md" : {
       "cB" : 0,
@@ -525,9 +479,9 @@
     "creationDate" : 669227926.75338697,
     "displayValue" : "Motion-S23-Jordan",
     "displayValueWasSetByUser" : 0,
-    "iconImageName" : "meme-yesBaby",
-    "iconImageWasSetByUser" : 1,
-    "lastBuiltDate" : 702951282.61023402
+    "iconImageName" : "brackets-ucla",
+    "iconImageWasSetByUser" : 0,
+    "lastBuiltDate" : 704939331.62595403
   },
   "projectSettings" : {
     "abortBuildOnError" : 1,
