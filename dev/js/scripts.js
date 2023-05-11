@@ -38,6 +38,23 @@ function heroAni(){
   return tl;
 }
 
+function titleAni(){
+  
+    let tl = gsap.timeline({
+        scrollTrigger:{
+            trigger: "#hero article",
+            start:"center 30%",
+            end:"center 10%",
+            scrub:true,
+            markers:true
+        }});
+  
+    tl.to("#hero-content", {duration:2, alpha:0, ease: "power2.out", scale: 0.75})
+    ;
+  
+    return tl;
+}
+
 function salesAni(){
   
   let tl = gsap.timeline({
@@ -86,6 +103,7 @@ function learnAni(){
 
 mainTL.add(navAni(),0)
 .add(heroAni(),0)
+.add(titleAni(),0)
 .add(salesAni(),0)
 .add(learnAni(),0)
 ;
