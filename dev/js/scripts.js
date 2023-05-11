@@ -1,4 +1,8 @@
 import { gsap } from "gsap";
+import { ScrollTrigger } from "gsap/ScrollTrigger";
+
+gsap.registerPlugin(ScrollTrigger);
+
 
 let mainTL = gsap.timeline({delay:0})
 gsap.utils.toArray("img").forEach(img => {
@@ -36,7 +40,12 @@ function heroAni(){
 
 function salesAni(){
   
-  let tl = gsap.timeline();
+  let tl = gsap.timeline({
+      scrollTrigger:{
+          trigger: "#about",
+          scrub:true,
+          markers:true
+      }});
   let mm = gsap.matchMedia();
 
   tl.from("#about", {duration:2, alpha:0, ease: "power2.out", x:"-=35" , delay:1})
@@ -59,9 +68,17 @@ mm.add("(min-width:1401px)", () =>{
 
 function learnAni(){
   
-    let tl = gsap.timeline();
+    let tl = gsap.timeline({
+        scrollTrigger:{
+            trigger: "#hero-2-content",
+            start:"top 80%",
+            end:"bottom center",
+            scrub:true,
+            markers:true
+        }});
   
-    tl.from("#hero-2", {duration:2, alpha:0, ease: "power2.out", delay:0.5})
+    tl.from("#hero-2 article", {duration:2, alpha:0, ease: "power2.out", delay:0.5})
+    tl.from("#hero-2-content", {duration:1, alpha:0, ease: "power2.out"}, "<=0.5")
     ;
   
     return tl;
