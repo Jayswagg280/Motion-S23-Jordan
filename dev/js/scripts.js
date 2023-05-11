@@ -46,7 +46,7 @@ function titleAni(){
             start:"center 30%",
             end:"center 10%",
             scrub:true,
-            markers:true
+            markers:false
         }});
   
     tl.to("#hero-content", {duration:2, alpha:0, ease: "power2.out", scale: 0.75})
@@ -61,7 +61,7 @@ function salesAni(){
       scrollTrigger:{
           trigger: "#about",
           scrub:true,
-          markers:true
+          markers:false
       }});
   let mm = gsap.matchMedia();
 
@@ -91,7 +91,7 @@ function learnAni(){
             start:"top 80%",
             end:"bottom center",
             scrub:true,
-            markers:true
+            markers:false
         }});
   
     tl.from("#hero-2 article", {duration:2, alpha:0, ease: "power2.out", delay:0.5})
