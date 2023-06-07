@@ -17,14 +17,6 @@
       "oAP" : "\/.gitattributes",
       "oF" : 0
     },
-    "\/build\/.gitignore" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/build\/.gitignore",
-      "oF" : 0
-    },
     "\/deploy\/css\/styles.css" : {
       "aP" : 1,
       "bl" : 0,
@@ -37,34 +29,144 @@
       "oF" : 0,
       "pg" : 0
     },
-    "\/deploy\/img\/challenge1.gif" : {
-      "ft" : 4194304,
-      "iS" : 65343,
+    "\/deploy\/img\/cranes.jpg" : {
+      "ft" : 16384,
+      "iS" : 4343820,
+      "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/deploy\/img\/challenge1.gif",
+      "oAP" : "\/deploy\/img\/cranes.jpg",
       "oF" : 0,
+      "oIPL" : 0,
       "opt" : 0,
       "ou" : "lpckwebp-none",
+      "q" : 100,
       "rq" : 75
     },
-    "\/deploy\/img\/challenge2.gif" : {
-      "ft" : 4194304,
-      "iS" : 216814,
+    "\/deploy\/img\/Echoes.jpg" : {
+      "ft" : 16384,
+      "iS" : 158223,
+      "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/deploy\/img\/challenge2.gif",
+      "oAP" : "\/deploy\/img\/Echoes.jpg",
       "oF" : 0,
+      "oIPL" : 0,
       "opt" : 0,
       "ou" : "lpckwebp-none",
+      "q" : 100,
       "rq" : 75
     },
-    "\/deploy\/img\/challenge3.gif" : {
-      "ft" : 4194304,
-      "iS" : 185249,
+    "\/deploy\/img\/end.jpg" : {
+      "ft" : 16384,
+      "iS" : 445475,
+      "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/deploy\/img\/challenge3.gif",
+      "oAP" : "\/deploy\/img\/end.jpg",
       "oF" : 0,
+      "oIPL" : 0,
       "opt" : 0,
       "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/Fuji.jpg" : {
+      "ft" : 16384,
+      "iS" : 282616,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/Fuji.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/hero-1.jpg" : {
+      "ft" : 16384,
+      "iS" : 410697,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/hero-1.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/hero-2.jpg" : {
+      "ft" : 16384,
+      "iS" : 807097,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/hero-2.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/hero.jpg" : {
+      "ft" : 16384,
+      "iS" : 218702,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/hero.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/logo.png" : {
+      "ft" : 32768,
+      "iS" : 7065,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/logo.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/logo.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/deploy\/img\/logo.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/deploy\/img\/solar-war.jpg" : {
+      "ft" : 16384,
+      "iS" : 215215,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/solar-war.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/tsunami.jpg" : {
+      "ft" : 16384,
+      "iS" : 2535674,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/tsunami.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
       "rq" : 75
     },
     "\/deploy\/index.html" : {
@@ -73,14 +175,6 @@
       "hM" : 0,
       "oA" : 0,
       "oAP" : "\/deploy\/index.html",
-      "oF" : 0
-    },
-    "\/deploy\/instructions.html" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/deploy\/instructions.html",
       "oF" : 0
     },
     "\/deploy\/js\/scripts-min.js" : {
@@ -102,20 +196,20 @@
       "oAP" : "\/dev\/content\/content.html",
       "oF" : 0
     },
-    "\/dev\/content\/instructions-content.kit" : {
+    "\/dev\/content\/hero.kit" : {
       "cB" : 0,
       "ft" : 2048,
       "hM" : 0,
-      "oA" : 1,
-      "oAP" : "\/dev\/content\/instructions-content.html",
+      "oA" : 0,
+      "oAP" : "\/dev\/content\/hero.html",
       "oF" : 0
     },
-    "\/dev\/global\/footer.html" : {
+    "\/dev\/content\/learn-more.kit" : {
       "cB" : 0,
-      "ft" : 8192,
+      "ft" : 2048,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/dev\/global\/footer.html",
+      "oAP" : "\/dev\/content\/learn-more.html",
       "oF" : 0
     },
     "\/dev\/global\/footer.kit" : {
@@ -150,38 +244,22 @@
       "oAP" : "\/dev\/global\/scripts.html",
       "oF" : 0
     },
-    "\/dev\/index.html" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/dev\/index.html",
-      "oF" : 0
-    },
     "\/dev\/index.kit" : {
       "cB" : 0,
       "ft" : 2048,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/dev\/index.html",
-      "oF" : 0
-    },
-    "\/dev\/instructions.kit" : {
-      "cB" : 0,
-      "ft" : 2048,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/dev\/instructions.html",
-      "oF" : 0
+      "oAP" : "\/deploy\/index.html",
+      "oF" : 2
     },
     "\/dev\/js\/scripts.js" : {
-      "bF" : 0,
+      "bF" : 4,
       "ft" : 64,
       "ma" : 0,
       "mi" : 1,
       "oA" : 0,
-      "oAP" : "\/dev\/js\/scripts-min.js",
-      "oF" : 0,
+      "oAP" : "\/deploy\/js\/scripts-min.js",
+      "oF" : 2,
       "sC" : 3,
       "tS" : 0
     },
@@ -350,6 +428,36 @@
       "pg" : 0,
       "sct" : 0
     },
+    "\/dev\/scss\/sections\/_hero.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "co" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/scss\/sections\/_hero.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
+    },
+    "\/dev\/scss\/sections\/_learn-more.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "co" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/scss\/sections\/_learn-more.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
+    },
     "\/dev\/scss\/styles.scss" : {
       "aP" : 0,
       "bl" : 0,
@@ -359,8 +467,8 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 0,
-      "oAP" : "\/dev\/scss\/styles.css",
-      "oF" : 0,
+      "oAP" : "\/deploy\/styles.css",
+      "oF" : 2,
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
@@ -386,14 +494,6 @@
       "oF" : 0,
       "oO" : 1,
       "oS" : 1
-    },
-    "\/README.html" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/README.html",
-      "oF" : 0
     },
     "\/README.md" : {
       "cB" : 0,
@@ -427,7 +527,7 @@
     "displayValueWasSetByUser" : 0,
     "iconImageName" : "brackets-ucla",
     "iconImageWasSetByUser" : 0,
-    "lastBuiltDate" : 704325901.50510299
+    "lastBuiltDate" : 704939331.62595403
   },
   "projectSettings" : {
     "abortBuildOnError" : 1,
