@@ -10,14 +10,6 @@ html {
 /* =============
     Variables
 ============= */
-:root {
-  --white: #fff;
-  --black: #000;
-  --blue: #1c6ca9;
-  --purple: #A97DA2;
-  --green: #078a28;
-}
-
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 /* Document
    ========================================================================== */
@@ -26,8 +18,10 @@ html {
  * 2. Prevent adjustments of font size after orientation changes in iOS.
  */
 html {
-  line-height: 1.15; /* 1 */
-  -webkit-text-size-adjust: 100%; /* 2 */
+  line-height: 1.15;
+  /* 1 */
+  -webkit-text-size-adjust: 100%;
+  /* 2 */
 }
 
 /* Sections
@@ -62,9 +56,12 @@ h1 {
  * 2. Show the overflow in Edge and IE.
  */
 hr {
-  box-sizing: content-box; /* 1 */
-  height: 0; /* 1 */
-  overflow: visible; /* 2 */
+  box-sizing: content-box;
+  /* 1 */
+  height: 0;
+  /* 1 */
+  overflow: visible;
+  /* 2 */
 }
 
 /**
@@ -72,8 +69,10 @@ hr {
  * 2. Correct the odd `em` font sizing in all browsers.
  */
 pre {
-  font-family: monospace, monospace; /* 1 */
-  font-size: 1em; /* 2 */
+  font-family: monospace, monospace;
+  /* 1 */
+  font-size: 1em;
+  /* 2 */
 }
 
 /* Text-level semantics
@@ -90,9 +89,12 @@ a {
  * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
  */
 abbr[title] {
-  border-bottom: none; /* 1 */
-  text-decoration: underline; /* 2 */
-  text-decoration: underline dotted; /* 2 */
+  border-bottom: none;
+  /* 1 */
+  text-decoration: underline;
+  /* 2 */
+  text-decoration: underline dotted;
+  /* 2 */
 }
 
 /**
@@ -110,8 +112,10 @@ strong {
 code,
 kbd,
 samp {
-  font-family: monospace, monospace; /* 1 */
-  font-size: 1em; /* 2 */
+  font-family: monospace, monospace;
+  /* 1 */
+  font-size: 1em;
+  /* 2 */
 }
 
 /**
@@ -161,10 +165,14 @@ input,
 optgroup,
 select,
 textarea {
-  font-family: inherit; /* 1 */
-  font-size: 100%; /* 1 */
-  line-height: 1.15; /* 1 */
-  margin: 0; /* 2 */
+  font-family: inherit;
+  /* 1 */
+  font-size: 100%;
+  /* 1 */
+  line-height: 1.15;
+  /* 1 */
+  margin: 0;
+  /* 2 */
 }
 
 /**
@@ -172,7 +180,8 @@ textarea {
  * 1. Show the overflow in Edge.
  */
 button,
-input { /* 1 */
+input {
+  /* 1 */
   overflow: visible;
 }
 
@@ -181,7 +190,8 @@ input { /* 1 */
  * 1. Remove the inheritance of text transform in Firefox.
  */
 button,
-select { /* 1 */
+select {
+  /* 1 */
   text-transform: none;
 }
 
@@ -230,12 +240,18 @@ fieldset {
  *    `fieldset` elements in all browsers.
  */
 legend {
-  box-sizing: border-box; /* 1 */
-  color: inherit; /* 2 */
-  display: table; /* 1 */
-  max-width: 100%; /* 1 */
-  padding: 0; /* 3 */
-  white-space: normal; /* 1 */
+  box-sizing: border-box;
+  /* 1 */
+  color: inherit;
+  /* 2 */
+  display: table;
+  /* 1 */
+  max-width: 100%;
+  /* 1 */
+  padding: 0;
+  /* 3 */
+  white-space: normal;
+  /* 1 */
 }
 
 /**
@@ -258,8 +274,10 @@ textarea {
  */
 [type=checkbox],
 [type=radio] {
-  box-sizing: border-box; /* 1 */
-  padding: 0; /* 2 */
+  box-sizing: border-box;
+  /* 1 */
+  padding: 0;
+  /* 2 */
 }
 
 /**
@@ -275,8 +293,10 @@ textarea {
  * 2. Correct the outline style in Safari.
  */
 [type=search] {
-  -webkit-appearance: textfield; /* 1 */
-  outline-offset: -2px; /* 2 */
+  -webkit-appearance: textfield;
+  /* 1 */
+  outline-offset: -2px;
+  /* 2 */
 }
 
 /**
@@ -291,8 +311,10 @@ textarea {
  * 2. Change font properties to `inherit` in Safari.
  */
 ::-webkit-file-upload-button {
-  -webkit-appearance: button; /* 1 */
-  font: inherit; /* 2 */
+  -webkit-appearance: button;
+  /* 1 */
+  font: inherit;
+  /* 2 */
 }
 
 /* Interactive
@@ -336,6 +358,10 @@ template {
 /* =============
     Buttons
 ============= */
+button {
+  border: none;
+}
+
 /* =============
     Forms
 ============= */
@@ -357,124 +383,14 @@ textarea {
 /* =============
     Navigation
 ============= */
-nav {
-  height: 100%;
-}
-nav ul {
-  height: 100%;
-  display: flex;
-  justify-content: flex-end;
-  align-items: center;
-  list-style-type: none;
-  margin: 0;
-}
-nav ul li {
-  margin-left: 4vw;
-}
-nav ul li a:link, nav ul li a:visited {
-  font-family: "Roboto Slab", serif;
-  color: var(--blue);
-  transition: 0.25s;
-  font-size: 1.125rem;
-  font-weight: 300;
-}
-nav ul li a:link:hover, nav ul li a:link:active, nav ul li a:visited:hover, nav ul li a:visited:active {
-  color: var(--purple);
-}
-
-/* =============
-    Header
-============= */
 /* =============
     Header
 ============= */
 header {
-  position: fixed;
-  background-color: var(--white);
-  width: 100%;
-  filter: drop-shadow(0px 2px 6px rgba(0, 0, 0, 0.1));
-  z-index: 100;
-}
-header > div {
-  display: grid;
-  grid-template-columns: 20% auto;
-  padding: 8px 16px;
-}
-header > div aside a {
-  display: inline-block;
+  color: red;
+  font-size: 0.75rem;
 }
 
 /* =============
     Footer
 ============= */
-#wrapper {
-  width: 800px;
-  height: 800px;
-  margin: 0 auto;
-  position: relative;
-  padding-top: 100px;
-  font-family: "Roboto Slab", serif;
-  font-size: 18px;
-  line-height: 1.66667rem;
-}
-
-#name {
-  color: var(--green);
-}
-
-/*******
-   Quiz
-   *******/
-.innerwrap {
-  display: flex;
-  flex-wrap: wrap;
-}
-
-.instructions {
-  background-color: var(--white);
-  padding-bottom: 100px;
-}
-
-.part {
-  margin-bottom: 3em;
-}
-
-li {
-  margin: 10px;
-}
-
-.graph {
-  position: relative;
-  width: 400px;
-  height: 350px;
-  background-color: #ccc;
-  background-image: linear-gradient(white 2px, transparent 2px), linear-gradient(90deg, white 2px, transparent 2px), linear-gradient(rgba(255, 255, 255, 0.3) 1px, transparent 1px), linear-gradient(90deg, rgba(255, 255, 255, 0.3) 1px, transparent 1px);
-  background-size: 50px 50px, 50px 50px;
-  background-position: -2px -2px, -2px -2px;
-}
-
-.box {
-  width: 48px;
-  height: 48px;
-  position: absolute;
-}
-
-.red {
-  background: red;
-  /* this transform must stay */
-  transform: translate(150px, 150px);
-}
-
-.blue {
-  background: blue;
-  /* this transform must stay */
-  transform: translate(200px, 150px);
-}
-
-.green {
-  width: 398px;
-  height: 10px;
-  position: absolute;
-  background: green;
-  bottom: -10px;
-}
