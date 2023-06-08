@@ -17,14 +17,6 @@
       "oAP" : "\/.gitattributes",
       "oF" : 0
     },
-    "\/build\/.gitignore" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/build\/.gitignore",
-      "oF" : 0
-    },
     "\/deploy\/css\/styles.css" : {
       "aP" : 1,
       "bl" : 0,
@@ -37,50 +29,12 @@
       "oF" : 0,
       "pg" : 0
     },
-    "\/deploy\/img\/challenge1.gif" : {
-      "ft" : 4194304,
-      "iS" : 65343,
-      "oA" : 0,
-      "oAP" : "\/deploy\/img\/challenge1.gif",
-      "oF" : 0,
-      "opt" : 0,
-      "ou" : "lpckwebp-none",
-      "rq" : 75
-    },
-    "\/deploy\/img\/challenge2.gif" : {
-      "ft" : 4194304,
-      "iS" : 216814,
-      "oA" : 0,
-      "oAP" : "\/deploy\/img\/challenge2.gif",
-      "oF" : 0,
-      "opt" : 0,
-      "ou" : "lpckwebp-none",
-      "rq" : 75
-    },
-    "\/deploy\/img\/challenge3.gif" : {
-      "ft" : 4194304,
-      "iS" : 185249,
-      "oA" : 0,
-      "oAP" : "\/deploy\/img\/challenge3.gif",
-      "oF" : 0,
-      "opt" : 0,
-      "ou" : "lpckwebp-none",
-      "rq" : 75
-    },
     "\/deploy\/index.html" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
       "oAP" : "\/deploy\/index.html",
-      "oF" : 0
-    },
-    "\/deploy\/instructions.html" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/deploy\/instructions.html",
       "oF" : 0
     },
     "\/deploy\/js\/scripts-min.js" : {
@@ -94,28 +48,38 @@
       "sC" : 3,
       "tS" : 0
     },
-    "\/dev\/content\/content.kit" : {
-      "cB" : 0,
-      "ft" : 2048,
-      "hM" : 0,
-      "oA" : 1,
-      "oAP" : "\/dev\/content\/content.html",
-      "oF" : 0
+    "\/design\/MJT-logo (1).svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/design\/MJT-logo (1).svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
     },
-    "\/dev\/content\/instructions-content.kit" : {
-      "cB" : 0,
-      "ft" : 2048,
-      "hM" : 0,
-      "oA" : 1,
-      "oAP" : "\/dev\/content\/instructions-content.html",
-      "oF" : 0
-    },
-    "\/dev\/global\/footer.html" : {
+    "\/dev\/content\/drawSVG.html" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/dev\/global\/footer.html",
+      "oAP" : "\/dev\/content\/drawSVG.html",
+      "oF" : 0
+    },
+    "\/dev\/content\/drawSVG.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dev\/content\/drawSVG.html",
+      "oF" : 0
+    },
+    "\/dev\/content\/logo.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/content\/logo.html",
       "oF" : 0
     },
     "\/dev\/global\/footer.kit" : {
@@ -138,7 +102,7 @@
       "cB" : 0,
       "ft" : 2048,
       "hM" : 0,
-      "oA" : 1,
+      "oA" : 0,
       "oAP" : "\/dev\/global\/header.html",
       "oF" : 0
     },
@@ -150,38 +114,22 @@
       "oAP" : "\/dev\/global\/scripts.html",
       "oF" : 0
     },
-    "\/dev\/index.html" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/dev\/index.html",
-      "oF" : 0
-    },
     "\/dev\/index.kit" : {
       "cB" : 0,
       "ft" : 2048,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/dev\/index.html",
-      "oF" : 0
-    },
-    "\/dev\/instructions.kit" : {
-      "cB" : 0,
-      "ft" : 2048,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/dev\/instructions.html",
-      "oF" : 0
+      "oAP" : "\/deploy\/index.html",
+      "oF" : 2
     },
     "\/dev\/js\/scripts.js" : {
-      "bF" : 0,
+      "bF" : 4,
       "ft" : 64,
       "ma" : 0,
       "mi" : 1,
       "oA" : 0,
-      "oAP" : "\/dev\/js\/scripts-min.js",
-      "oF" : 0,
+      "oAP" : "\/deploy\/js\/scripts-min.js",
+      "oF" : 2,
       "sC" : 3,
       "tS" : 0
     },
@@ -335,7 +283,7 @@
       "pg" : 0,
       "sct" : 0
     },
-    "\/dev\/scss\/sections\/_content.scss" : {
+    "\/dev\/scss\/sections\/_logo.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
@@ -344,7 +292,7 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/dev\/scss\/sections\/_content.css",
+      "oAP" : "\/dev\/scss\/sections\/_logo.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,
@@ -359,8 +307,8 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 0,
-      "oAP" : "\/dev\/scss\/styles.css",
-      "oF" : 0,
+      "oAP" : "\/deploy\/css\/styles.css",
+      "oF" : 2,
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
@@ -386,14 +334,6 @@
       "oF" : 0,
       "oO" : 1,
       "oS" : 1
-    },
-    "\/README.html" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/README.html",
-      "oF" : 0
     },
     "\/README.md" : {
       "cB" : 0,
@@ -425,9 +365,9 @@
     "creationDate" : 669227926.75338697,
     "displayValue" : "Motion-S23-Jordan",
     "displayValueWasSetByUser" : 0,
-    "iconImageName" : "brackets-ucla",
-    "iconImageWasSetByUser" : 0,
-    "lastBuiltDate" : 704325901.50510299
+    "iconImageName" : "meme-yesBaby",
+    "iconImageWasSetByUser" : 1,
+    "lastBuiltDate" : 702951282.61023402
   },
   "projectSettings" : {
     "abortBuildOnError" : 1,
@@ -1373,7 +1313,7 @@
         "optionString" : "{'skipBlankLines': false, 'ignoreComments': false}"
       },
       "no-undef" : {
-        "active" : 1,
+        "active" : 0,
         "optionString" : "{'typeof': false}"
       },
       "no-undef-init" : {
