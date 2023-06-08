@@ -32,13 +32,11 @@ function eyeAnimation(){
 
 }
 
-function Animation(){
+function mjtAnimation(){
   let tl = gsap.timeline();
 
-  tl.from("#closed", {duration:0.75, autoAlpha:0, ease:"none"})
-  tl.from("#open", {duration:0.75, autoAlpha:0, ease:"none"})
-  tl.from("#iris", {duration:0.5, autoAlpha:0, ease:"none"},"-=20%")
-  tl.to("#closed", {duration:0.5, autoAlpha:0, ease:"none"},"-=20%")
+  tl.from("#", {duration:0.75, autoAlpha:0, ease:"none"})
+  
 
   ;
 
@@ -55,6 +53,7 @@ function Animation(){
 
 let mainTl = gsap.timeline();
 mainTl.add(eyeAnimation())
+.add(mjtAnimation())
 
 ;
 
