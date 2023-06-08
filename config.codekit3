@@ -29,68 +29,6 @@
       "oF" : 0,
       "pg" : 0
     },
-    "\/deploy\/img\/Echoes.jpg" : {
-      "ft" : 16384,
-      "iS" : 158223,
-      "jF" : 0,
-      "oA" : 0,
-      "oAP" : "\/deploy\/img\/Echoes.jpg",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/deploy\/img\/end.jpg" : {
-      "ft" : 16384,
-      "iS" : 445475,
-      "jF" : 0,
-      "oA" : 0,
-      "oAP" : "\/deploy\/img\/end.jpg",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/deploy\/img\/hero.jpg" : {
-      "ft" : 16384,
-      "iS" : 218702,
-      "jF" : 0,
-      "oA" : 0,
-      "oAP" : "\/deploy\/img\/hero.jpg",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/deploy\/img\/logo.svg" : {
-      "ft" : 2097152,
-      "miP" : 0,
-      "oA" : 2,
-      "oAP" : "\/deploy\/img\/logo.svg",
-      "oF" : 0,
-      "opt" : 0,
-      "plM" : 52780316221407,
-      "prP" : 0
-    },
-    "\/deploy\/img\/solar-war.jpg" : {
-      "ft" : 16384,
-      "iS" : 215215,
-      "jF" : 0,
-      "oA" : 0,
-      "oAP" : "\/deploy\/img\/solar-war.jpg",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
     "\/deploy\/index.html" : {
       "cB" : 0,
       "ft" : 8192,
@@ -110,20 +48,22 @@
       "sC" : 3,
       "tS" : 0
     },
-    "\/dev\/content\/content.kit" : {
-      "cB" : 0,
-      "ft" : 2048,
-      "hM" : 0,
-      "oA" : 1,
-      "oAP" : "\/dev\/content\/content.html",
-      "oF" : 0
+    "\/design\/MJT-logo (1).svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/design\/MJT-logo (1).svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
     },
-    "\/dev\/content\/hero.kit" : {
+    "\/dev\/content\/logo.kit" : {
       "cB" : 0,
       "ft" : 2048,
       "hM" : 0,
       "oA" : 1,
-      "oAP" : "\/dev\/content\/hero.html",
+      "oAP" : "\/dev\/content\/logo.html",
       "oF" : 0
     },
     "\/dev\/global\/footer.kit" : {
@@ -146,7 +86,7 @@
       "cB" : 0,
       "ft" : 2048,
       "hM" : 0,
-      "oA" : 1,
+      "oA" : 0,
       "oAP" : "\/dev\/global\/header.html",
       "oF" : 0
     },
@@ -327,7 +267,7 @@
       "pg" : 0,
       "sct" : 0
     },
-    "\/dev\/scss\/sections\/_content.scss" : {
+    "\/dev\/scss\/sections\/_logo.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
@@ -336,22 +276,7 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/dev\/scss\/sections\/_content.css",
-      "oF" : 0,
-      "oS" : 0,
-      "pg" : 0,
-      "sct" : 0
-    },
-    "\/dev\/scss\/sections\/_hero.scss" : {
-      "aP" : 0,
-      "bl" : 0,
-      "co" : 0,
-      "dP" : 10,
-      "ec" : 1,
-      "ft" : 4,
-      "ma" : 0,
-      "oA" : 1,
-      "oAP" : "\/dev\/scss\/sections\/_hero.css",
+      "oAP" : "\/dev\/scss\/sections\/_logo.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,
@@ -424,8 +349,9 @@
     "creationDate" : 669227926.75338697,
     "displayValue" : "Motion-S23-Jordan",
     "displayValueWasSetByUser" : 0,
-    "iconImageName" : "brackets-ucla",
-    "iconImageWasSetByUser" : 0
+    "iconImageName" : "meme-yesBaby",
+    "iconImageWasSetByUser" : 1,
+    "lastBuiltDate" : 702951282.61023402
   },
   "projectSettings" : {
     "abortBuildOnError" : 1,
@@ -1038,7 +964,7 @@
         "optionString" : "{'allowParens': true}"
       },
       "no-console" : {
-        "active" : 1,
+        "active" : 0,
         "optionString" : "{'allow': ['warn', 'error']}"
       },
       "no-const-assign" : {
@@ -1371,7 +1297,7 @@
         "optionString" : "{'skipBlankLines': false, 'ignoreComments': false}"
       },
       "no-undef" : {
-        "active" : 1,
+        "active" : 0,
         "optionString" : "{'typeof': false}"
       },
       "no-undef-init" : {
@@ -1939,7 +1865,7 @@
       "moduleType" : 2,
       "removeComments" : 0,
       "sourceMapStyle" : 0,
-      "targetECMAVersion" : 0
+      "targetECMAVersion" : 2018
     },
     "languageDefaultsUserDefined" : [
 
