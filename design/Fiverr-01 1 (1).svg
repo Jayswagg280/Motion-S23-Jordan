@@ -1,7 +1,4 @@
-<section id="content">
-    <div>
-        <!-- add svg here -->
-        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 1183 888">
+<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 1183 888">
           <defs>
             <clipPath id="clip">
               <path id="clip" fill="#D9D9D9" stroke="#000" d="M279.5 530.5h587v169h-587z"/>
@@ -29,6 +26,3 @@
               <path fill="#fff" d="M425.27 382.31c4.07-1.12 8.69-.14 12.06 2.38 4.07 2.94 6.45 8.27 5.75 13.32-.7 6.03-5.47 11.22-11.5 12.34-7.85 1.82-16.41-4.21-17.11-12.34-1.11-6.87 3.79-14.16 10.8-15.7Z"/>
             </g>
           </svg>
-            
-    </div>
-</section>

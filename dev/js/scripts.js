@@ -9,14 +9,22 @@ gsap.registerPlugin(MotionPathPlugin);
 
 //INIT
 
-//gsap.set("#t-path", {autoAlpha:0});
+gsap.set("#clip", {y:"-=80"});
+gsap.set("#v", {y:"+=130"});
+gsap.set("#e", {y:"+=130"});
+gsap.set("#r1", {y:"+=130"});
+gsap.set("#r2", {y:"+=130"});
+gsap.set("#trade", {x:"+=80"});
 
 
-function eyeAnimation(){
+
+
+function fiAnimation(){
     let tl = gsap.timeline();
 
-    tl.from("#closed", {duration:0.75, autoAlpha:0, ease:"none"})
-    tl.from("#open", {duration:0.75, autoAlpha:0, ease:"none"})
+    tl.fromTo("#fi", {y:"+=130"}, {duration:0.75, y:"0", ease:"none"})
+    tl.from("#fi", {duration:0.75, rotation:20, ease:"none"},"<-=")
+    tl.from("#fi", {duration:0.75, x:"+=330", ease:"none"})
     tl.from("#iris", {duration:0.5, autoAlpha:0, ease:"none"},"-=20%")
     tl.to("#closed", {duration:0.5, autoAlpha:0, ease:"none"},"-=20%")
 
@@ -90,7 +98,7 @@ function dripAnimation(){
 
 
 let mainTl = gsap.timeline();
-mainTl.add(eyeAnimation())
+mainTl.add(fiAnimation())
 .add(mjtAnimation())
 .add(typAnimation())
 .add(dripAnimation(),"-=0.75")
